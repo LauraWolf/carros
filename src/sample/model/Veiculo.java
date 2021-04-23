@@ -1,16 +1,16 @@
 package sample.model;
 
 public abstract class Veiculo {
-    /**
-     * Atributos
+    /*
+      Atributos
      */
     private String nome;
     private Marca marca;
     private String desc;
 
-    /**
-     * Construtor da classe
-     * @param nome
+    /*
+      Construtor da classe
+      @param nome
      */
     public Veiculo(String nome){
         this.nome = nome;
@@ -45,9 +45,9 @@ public abstract class Veiculo {
         this.desc = desc;
     }
 
-    /**
-     * ToString da classe
-     * @return string do objeto
+    /*
+      ToString da classe
+      @return string do objeto
      */
     @Override
     public String toString() {

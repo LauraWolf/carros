@@ -4,17 +4,16 @@ public class Caminhao extends Veiculo{
 
     private int nEixos;
 
-    /**
-     * Construtor da classe
-     *
-     * @param nome
+    /*
+      Construtor da classe
+      @param nome
      */
     public Caminhao(String nome) {
         super(nome);
     }
 
-    /**
-     * Get e set
+    /*
+      Get e set
      */
     public int getnEixos() {
         return nEixos;

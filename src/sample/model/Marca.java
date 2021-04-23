@@ -5,8 +5,8 @@ public class Marca {
         private String nome;
         private String desc;
 
-        /**
-         * Getters and setters
+        /*
+          Getters and setters
          */
         public String getNome() {
             return nome;
@@ -21,8 +21,8 @@ public class Marca {
             this.desc = desc;
         }
 
-        /**
-         * ToString
+        /*
+          ToString
          */
         @Override
         public String toString(){
